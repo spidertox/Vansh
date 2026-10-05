@@ -3,9 +3,10 @@ export const profile = {
   name: 'VANSH',
   nickname: 'KRISHNA',
   bio: 'Digital creator, developer and technology explorer.',
-  instagramUsername: 'vansh_rtf',
-  instagramUrl: 'https://www.instagram.com/vansh_rtf',
+  instagramUsername: 'vansh.rtx',
+  instagramUrl: 'https://www.instagram.com/vansh.rtx?stkn=d2w2Zm8wNWNvNGxr',
   githubUrl: 'https://github.com/spidertox',
+  blogUrl: 'https://blog.vansh.rtx',
   profileImage: './profile.jpg', // file in /public; leave '' to show the "K" fallback
   // Tech stack groups — edit freely (add/remove groups or items)
   stack: [

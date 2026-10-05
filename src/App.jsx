@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion, useMotionValue, useSpring, useReducedMotion } from 'framer-motion'
-import { Instagram, Github } from 'lucide-react'
+import { Instagram, Github, BookOpen } from 'lucide-react'
 import { profile as p } from './config/profile'
 import Background from './Background'
 import { Logo } from './icons'
@@ -166,6 +166,10 @@ export default function App() {
         {p.githubUrl && <motion.a href={p.githubUrl} target="_blank" rel="noopener noreferrer" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.8 }}
           className="font-mono text-xs px-4 py-2 rounded-md border border-neon/25 text-slate-300 flex items-center gap-2 transition hover:border-cy hover:text-cy hover:shadow-[0_0_18px_rgba(34,211,238,.3)]">
           <Github className="w-4 h-4" />[ GITHUB ]</motion.a>}
+
+        {p.blogUrl && <motion.a href={p.blogUrl} target="_blank" rel="noopener noreferrer" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.9 }}
+          className="font-mono text-xs px-4 py-2 rounded-md border border-neon/25 text-slate-300 flex items-center gap-2 transition hover:border-neon hover:text-neon hover:shadow-[0_0_18px_rgba(0,255,156,.3)]">
+          <BookOpen className="w-4 h-4" />[ BLOG ]</motion.a>}
       </main>
 
       <footer className="pb-6 text-center font-mono text-[10px] text-slate-500">
