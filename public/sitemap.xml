@@ -11,7 +11,15 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Blog Page - High Priority -->
+  <!-- About Page -->
+  <url>
+    <loc>https://spidertox.github.io/Vansh/about.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Blog Page -->
   <url>
     <loc>https://spidertox.github.io/Vansh/blog.html</loc>
     <lastmod>2026-10-05</lastmod>
@@ -19,12 +27,28 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Projects Page -->
+  <url>
+    <loc>https://spidertox.github.io/Vansh/projects.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://spidertox.github.io/Vansh/contact.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Profile Image -->
   <url>
     <loc>https://spidertox.github.io/Vansh/profile.jpg</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <!-- Verification Files -->
@@ -32,21 +56,43 @@
     <loc>https://spidertox.github.io/Vansh/zBnJ1iVESAD_3KSxmj2rT-AOWetMWXAr00X3F3q7Isc.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spidertox.github.io/Vansh/G8tFApX_GpR-sGNn47DxraIxQ1-nqnpmY_bBpPD-lkI.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- SEO Files -->
+  <url>
+    <loc>https://spidertox.github.io/Vansh/sitemap.xml</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
-  <!-- Robots.txt -->
   <url>
     <loc>https://spidertox.github.io/Vansh/robots.txt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+  </url>
+
+  <!-- External Social Links -->
+  <url>
+    <loc>https://www.instagram.com/vansh.rtx</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/spidertox</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

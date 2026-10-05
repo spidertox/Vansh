@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Projects by VANSH KRISHNA | AI & Web Development Portfolio</title>
+  <meta name="description" content="Explore projects by VANSH KRISHNA - AI Developer and Technology Explorer. Discover innovative AI applications, web development projects, and technology solutions." />
+  <meta name="keywords" content="VANSH KRISHNA projects, VANSH projects, KRISHNA projects, AI projects, machine learning projects, web development projects, VANSH KRISHNA portfolio, AI applications, technology projects" />
+  <meta name="author" content="VANSH KRISHNA" />
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Projects by VANSH KRISHNA | AI & Web Development Portfolio" />
+  <meta property="og:description" content="Explore innovative AI applications and web development projects by VANSH KRISHNA." />
+  <meta property="og:url" content="https://spidertox.github.io/Vansh/projects.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://spidertox.github.io/Vansh/profile.jpg" />
+  <meta property="og:site_name" content="VANSH KRISHNA" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Projects by VANSH KRISHNA | AI & Web Development Portfolio" />
+  <meta name="twitter:description" content="Explore innovative AI applications and web development projects by VANSH KRISHNA." />
+  <meta name="twitter:image" content="https://spidertox.github.io/Vansh/profile.jpg" />
+  <meta name="twitter:site" content="@vansh.rtx" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://spidertox.github.io/Vansh/projects.html" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpg" href="./profile.jpg" />
+  
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="zBnJ1iVESAD_3KSxmj2rT-AOWetMWXAr00X3F3q7Isc" />
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#050607" />
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Projects by VANSH KRISHNA",
+    "description": "Portfolio of AI and web development projects by VANSH KRISHNA",
+    "url": "https://spidertox.github.io/Vansh/projects.html",
+    "author": {
+      "@type": "Person",
+      "name": "VANSH KRISHNA",
+      "url": "https://spidertox.github.io/Vansh/",
+      "image": "https://spidertox.github.io/Vansh/profile.jpg"
+    },
+    "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "AI Chatbot System",
+        "description": "Intelligent conversational AI using modern NLP techniques",
+        "url": "https://spidertox.github.io/Vansh/projects.html#chatbot"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Generative Art Platform",
+        "description": "AI-powered creative tools for digital artwork generation",
+        "url": "https://spidertox.github.io/Vansh/projects.html#generative-art"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Predictive Analytics Dashboard",
+        "description": "Machine learning models for business insights",
+        "url": "https://spidertox.github.io/Vansh/projects.html#analytics"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "AI-Powered Website",
+        "description": "Personal portfolio with AI integration",
+        "url": "https://spidertox.github.io/Vansh/projects.html#website"
+      }
+    ]
+  }
+  </script>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #050607;
+      color: #e2e8f0;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid #1e293b;
+    }
+    
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(90deg, #00ff9c, #22d3ee);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    header p {
+      color: #94a3b8;
+      font-size: 1.1rem;
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+    
+    .social-links a {
+      color: #00ff9c;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      padding: 0.5rem 1rem;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+    }
+    
+    .social-links a:hover {
+      color: #22d3ee;
+      border-color: #00ff9c;
+      text-shadow: 0 0 10px #00ff9c;
+    }
+    
+    .section {
+      margin-bottom: 3rem;
+    }
+    
+    .section h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+      color: #00ff9c;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    
+    .section h2::before {
+      content: '';
+      width: 4px;
+      height: 1.75rem;
+      background: linear-gradient(180deg, #00ff9c, #22d3ee);
+      border-radius: 2px;
+    }
+    
+    .section p {
+      color: #cbd5e1;
+      margin-bottom: 1rem;
+    }
+    
+    .filters {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+      padding: 0.5rem 1.25rem;
+      background: transparent;
+      color: #94a3b8;
+      border: 1px solid #334155;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+    }
+    
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: #00ff9c20;
+      color: #00ff9c;
+      border-color: #00ff9c;
+    }
+    
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    
+    .project-card {
+      background: #0f172a;
+      border-radius: 12px;
+      border: 1px solid #1e293b;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-5px);
+      border-color: #00ff9c;
+      box-shadow: 0 10px 40px rgba(0, 255, 156, 0.1);
+    }
+    
+    .project-image {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(135deg, #00ff9c20, #22d3ee20);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+    
+    .project-content {
+      padding: 1.5rem;
+    }
+    
+    .project-category {
+      display: inline-block;
+      background: #00ff9c20;
+      color: #00ff9c;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+    }
+    
+    .project-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #e2e8f0;
+      margin-bottom: 0.5rem;
+    }
+    
+    .project-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    .project-title a:hover {
+      color: #00ff9c;
+    }
+    
+    .project-description {
+      color: #94a3b8;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .project-tag {
+      background: #334155;
+      color: #cbd5e1;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+    }
+    
+    .project-links {
+      display: flex;
+      gap: 0.75rem;
+    }
+    
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      color: #00ff9c;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: all 0.3s ease;
+    }
+    
+    .project-link:hover {
+      color: #22d3ee;
+    }
+    
+    .back-link {
+      display: inline-block;
+      margin: 2rem 0;
+      color: #00ff9c;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+    }
+    
+    .back-link:hover {
+      color: #22d3ee;
+      border-color: #00ff9c;
+      text-shadow: 0 0 10px #00ff9c;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid #1e293b;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+    
+    footer a {
+      color: #00ff9c;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      color: #22d3ee;
+    }
+    
+    .cta-section {
+      text-align: center;
+      margin: 3rem 0;
+      padding: 2rem;
+      background: linear-gradient(135deg, #00ff9c15, #22d3ee15);
+      border-radius: 12px;
+      border: 1px solid #00ff9c30;
+    }
+    
+    .cta-section h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: #00ff9c;
+    }
+    
+    .cta-section p {
+      color: #94a3b8;
+      margin-bottom: 1.5rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .cta-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: transparent;
+      color: #00ff9c;
+      border: 1px solid #00ff9c;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+    
+    .cta-button:hover {
+      background: #00ff9c20;
+      box-shadow: 0 0 15px rgba(0, 255, 156, 0.3);
+    }
+    
+    .cta-button.primary {
+      background: #00ff9c20;
+      color: #00ff9c;
+    }
+    
+    .cta-button.primary:hover {
+      background: #00ff9c30;
+      border-color: #00ff9c;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+      
+      header h1 {
+        font-size: 1.75rem;
+      }
+      
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .filters {
+        justify-content: center;
+      }
+    }
+  </style>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Projects</h1>
+      <p>AI Applications & Web Development Portfolio</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/vansh.rtx?stkn=d2w2Zm8wNWNvNGxr" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://github.com/spidertox" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="./" style="color: #00ff9c; text-decoration: none;">Home</a>
+        <a href="./about.html" style="color: #00ff9c; text-decoration: none;">About</a>
+        <a href="./blog.html" style="color: #00ff9c; text-decoration: none;">Blog</a>
+        <a href="./contact.html" style="color: #00ff9c; text-decoration: none;">Contact</a>
+      </div>
+    </header>
+    
+    <main>
+      <!-- Filters Section -->
+      <div class="section">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+          <button class="filter-btn" data-filter="open-source">Open Source</button>
+        </div>
+      </div>
+      
+      <!-- Projects Grid -->
+      <div class="section">
+        <div class="projects-grid">
+          <!-- Project 1: AI Chatbot System -->
+          <div class="project-card" data-category="ai web">
+            <div class="project-image" style="font-size: 4rem;">💬</div>
+            <div class="project-content">
+              <span class="project-category">AI & Web</span>
+              <h3 class="project-title"><a href="#chatbot">AI Chatbot System</a></h3>
+              <p class="project-description">Intelligent conversational AI system built with modern NLP techniques and large language model integration. Features include context understanding, multi-turn conversations, and custom knowledge bases.</p>
+              <div class="project-tags">
+                <span class="project-tag">#NLP</span>
+                <span class="project-tag">#LLM</span>
+                <span class="project-tag">#Chatbot</span>
+                <span class="project-tag">#Python</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox" class="project-link" target="_blank">Code →</a>
+                <a href="./contact.html" class="project-link">Contact →</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 2: Generative Art Platform -->
+          <div class="project-card" data-category="ai web">
+            <div class="project-image" style="font-size: 4rem;">🎨</div>
+            <div class="project-content">
+              <span class="project-category">AI & Web</span>
+              <h3 class="project-title"><a href="#generative-art">Generative Art Platform</a></h3>
+              <p class="project-description">AI-powered creative platform for generating unique digital artwork. Uses diffusion models and style transfer techniques to create stunning visuals from text prompts.</p>
+              <div class="project-tags">
+                <span class="project-tag">#GenerativeAI</span>
+                <span class="project-tag">#Art</span>
+                <span class="project-tag">#Diffusion</span>
+                <span class="project-tag">#StableDiffusion</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox" class="project-link" target="_blank">Code →</a>
+                <a href="#" class="project-link">Demo →</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 3: Predictive Analytics Dashboard -->
+          <div class="project-card" data-category="ai web">
+            <div class="project-image" style="font-size: 4rem;">📈</div>
+            <div class="project-content">
+              <span class="project-category">AI & Web</span>
+              <h3 class="project-title"><a href="#analytics">Predictive Analytics Dashboard</a></h3>
+              <p class="project-description">Comprehensive business intelligence platform with machine learning models for forecasting, trend analysis, and data visualization. Built with React and Python backend.</p>
+              <div class="project-tags">
+                <span class="project-tag">#Analytics</span>
+                <span class="project-tag">#MachineLearning</span>
+                <span class="project-tag">#Dashboard</span>
+                <span class="project-tag">#React</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox" class="project-link" target="_blank">Code →</a>
+                <a href="#" class="project-link">Live →</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 4: AI-Powered Personal Portfolio -->
+          <div class="project-card" data-category="ai web">
+            <div class="project-image" style="font-size: 4rem;">🌐</div>
+            <div class="project-content">
+              <span class="project-category">AI & Web</span>
+              <h3 class="project-title"><a href="#website">AI-Powered Personal Portfolio</a></h3>
+              <p class="project-description">This very website! Built with Vite, React, and Tailwind CSS, featuring AI integration, smart animations, and responsive design. Showcases my skills and work.</p>
+              <div class="project-tags">
+                <span class="project-tag">#Portfolio</span>
+                <span class="project-tag">#React</span>
+                <span class="project-tag">#TailwindCSS</span>
+                <span class="project-tag">#Vite</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox/Vansh" class="project-link" target="_blank">Code →</a>
+                <a href="./" class="project-link">Live →</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 5: Machine Learning Model Hub -->
+          <div class="project-card" data-category="ai open-source">
+            <div class="project-image" style="font-size: 4rem;">🧠</div>
+            <div class="project-content">
+              <span class="project-category">AI & Open Source</span>
+              <h3 class="project-title"><a href="#ml-hub">Machine Learning Model Hub</a></h3>
+              <p class="project-description">Collection of pre-trained machine learning models for various tasks including classification, regression, clustering, and natural language processing.</p>
+              <div class="project-tags">
+                <span class="project-tag">#MachineLearning</span>
+                <span class="project-tag">#Models</span>
+                <span class="project-tag">#OpenSource</span>
+                <span class="project-tag">#Python</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox" class="project-link" target="_blank">Code →</a>
+                <a href="#" class="project-link">Docs →</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 6: Web Development Toolkit -->
+          <div class="project-card" data-category="web open-source">
+            <div class="project-image" style="font-size: 4rem;">🛠️</div>
+            <div class="project-content">
+              <span class="project-category">Web & Open Source</span>
+              <h3 class="project-title"><a href="#toolkit">Web Development Toolkit</a></h3>
+              <p class="project-description">Collection of reusable components, utilities, and tools for modern web development. Includes React hooks, custom components, and development scripts.</p>
+              <div class="project-tags">
+                <span class="project-tag">#WebDevelopment</span>
+                <span class="project-tag">#React</span>
+                <span class="project-tag">#Components</span>
+                <span class="project-tag">#Utilities</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox" class="project-link" target="_blank">Code →</a>
+                <a href="#" class="project-link">Docs →</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 7: AI Research Notebooks -->
+          <div class="project-card" data-category="ai open-source">
+            <div class="project-image" style="font-size: 4rem;">📚</div>
+            <div class="project-content">
+              <span class="project-category">AI & Open Source</span>
+              <h3 class="project-title"><a href="#research">AI Research Notebooks</a></h3>
+              <p class="project-description">Collection of Jupyter notebooks documenting AI research, experiments, and implementations. Covers topics like transformers, GANs, reinforcement learning, and more.</p>
+              <div class="project-tags">
+                <span class="project-tag">#Research</span>
+                <span class="project-tag">#Jupyter</span>
+                <span class="project-tag">#Notebooks</span>
+                <span class="project-tag">#AI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox" class="project-link" target="_blank">Code →</a>
+                <a href="#" class="project-link">Explore →</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 8: Mobile App Prototype -->
+          <div class="project-card" data-category="mobile ai">
+            <div class="project-image" style="font-size: 4rem;">📱</div>
+            <div class="project-content">
+              <span class="project-category">Mobile & AI</span>
+              <h3 class="project-title"><a href="#mobile-app">AI-Powered Mobile App</a></h3>
+              <p class="project-description">Mobile application prototype featuring AI capabilities like image recognition, natural language understanding, and predictive features. Built with React Native.</p>
+              <div class="project-tags">
+                <span class="project-tag">#Mobile</span>
+                <span class="project-tag">#ReactNative</span>
+                <span class="project-tag">#AI</span>
+                <span class="project-tag">#Prototype</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/spidertox" class="project-link" target="_blank">Code →</a>
+                <a href="#" class="project-link">Demo →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CTA Section -->
+      <div class="cta-section">
+        <h2>Interested in My Work?</h2>
+        <p>Explore the code on GitHub, check out live demos, or get in touch to discuss collaboration opportunities.</p>
+        <div class="cta-buttons">
+          <a href="https://github.com/spidertox" class="cta-button primary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <a href="./contact.html" class="cta-button">Contact Me</a>
+          <a href="./about.html" class="cta-button">About Me</a>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin: 2rem 0;">
+        <a href="./" class="back-link">← Back to Home</a>
+      </div>
+    </main>
+    
+    <footer>
+      <p>&copy; 2026 VANSH KRISHNA - AI Developer & Technology Explorer</p>
+      <p style="margin-top: 0.5rem;">
+        <a href="https://www.instagram.com/vansh.rtx?stkn=d2w2Zm8wNWNvNGxr" target="_blank" rel="noopener noreferrer">Instagram</a> | 
+        <a href="https://github.com/spidertox" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+        <a href="./">Home</a> | 
+        <a href="./about.html">About</a> | 
+        <a href="./blog.html">Blog</a> | 
+        <a href="./contact.html">Contact</a>
+      </p>
+    </footer>
+  </div>
+  
+  <!-- Filter Script -->
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Remove active class from all buttons
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        // Add active class to clicked button
+        btn.classList.add('active');
+        
+        // Get filter value
+        const filter = btn.dataset.filter;
+        
+        // Filter projects
+        document.querySelectorAll('.project-card').forEach(card => {
+          if (filter === 'all' || card.dataset.category.includes(filter)) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'YOUR_GA_TRACKING_ID');
+  </script>
+</body>
+</html>
