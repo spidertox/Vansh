@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://spidertox.github.io/Vansh/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 2
+
+# Specific pages to prioritize
+# High priority pages
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Images
+User-agent: Googlebot-Image
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Don't crawl development or private files
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /package*.json
+Disallow: /*.lock
