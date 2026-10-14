@@ -1,0 +1,1 @@
+id.png and right_pointing.png: illustrations generated with Figma AI image generation from text prompts, background keyed to real alpha. Not uploaded to the profile repo; they are already embedded in the SVGs.

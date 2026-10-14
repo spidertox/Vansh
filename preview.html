@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Profile preview</title>
+<style>body{margin:0;background:#0d1117;color:#e6edf3;font:15px system-ui}header{position:sticky;top:0;display:flex;gap:8px;padding:10px;background:#161b22;z-index:2}
+button{background:#21262d;color:#e6edf3;border:1px solid #30363d;border-radius:8px;padding:8px 14px;font:inherit}button[aria-pressed=true]{border-color:#247bff}
+main{max-width:830px;margin:0 auto;padding:16px}img{display:block;width:100%;height:auto;margin:0 0 16px}</style>
+<header><button data-l="en" aria-pressed="true">English</button><button data-l="hi" aria-pressed="false">हिन्दी</button></header><main id="m"></main>
+<script>const SRC=f=>'assets/'+f;const F={en:["hero.svg","about-life.svg","stack.svg","id-dashboard.svg","connect.svg"],hi:["hero.hi.svg","about-life.hi.svg","stack.svg","id-dashboard.svg","connect.hi.svg"]};
+function show(l){m.innerHTML=F[l].map(f=>`<img src="${SRC(f)}" alt="${f}">`).join("");document.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l==l))}
+document.querySelectorAll("button").forEach(b=>b.onclick=()=>show(b.dataset.l));show("en")</script></html>
